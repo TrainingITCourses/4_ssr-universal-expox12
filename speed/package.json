@@ -17,10 +17,6 @@
     "build:client-and-server-bundles": "ng build --prod && ng run speed:server",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:ssr": "node dist/server"
-    /* no funciona 'npm run', usar lo siguiente:
-        1. ng build --prod && ng run speed:server && ./node_modules/.bin/webpack --config webpack.server.config.js --progress --colors 
-        2. node dist/server
-    */
   },
   "private": true,
   "dependencies": {
